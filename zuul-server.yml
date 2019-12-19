@@ -6,5 +6,5 @@ zuul:
     routes:
       example-microservice: 
         path: /example/**
-        url: http://localhost:8091
+        serviceId: EXAMPLE-MICROSERVICE
       
