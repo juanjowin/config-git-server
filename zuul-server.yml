@@ -4,5 +4,6 @@ server:
 zuul:
     routes:
       example-microservice:
-        url: http://localhost:8091/example
+        path: /example/**
+        url: http://localhost:8091
       
