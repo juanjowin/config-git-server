@@ -3,11 +3,7 @@ server:
 
 zuul:
   ignored-services: '*'
-  host:
-    connect-timeout-millis: 2000
-    socket-timeout-millis:  2000
     routes:
       example-service:  
-        path: /example/** 
         url: http://localhost:8091
       
