@@ -9,6 +9,6 @@ zuul:
     routes:
       example-service:  
         path: /example/** 
-        url: example-service
+        url: http://localhost:8091
         stripPrefix: false
         sensitiveHeader:
