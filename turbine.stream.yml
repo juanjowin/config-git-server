@@ -1,0 +1,6 @@
+server:
+  port: 8989
+
+turbine:
+  app-config: example-microservice
+  cluster-name-expression: new String("default")
