@@ -8,5 +8,5 @@ zuul:
  zuul:
     routes:
       example-microservice:
-        url: http://localhost:8091
+        url: http://localhost:8091/
       
