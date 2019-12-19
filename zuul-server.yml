@@ -8,7 +8,7 @@ zuul:
     socket-timeout-millis:  2000
     routes:
       example-service:  
-        path:/example/** 
+        path: /example/** 
         url: example-service
         stripPrefix: false
         sensitiveHeader:
