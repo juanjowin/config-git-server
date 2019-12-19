@@ -4,6 +4,6 @@ server:
 zuul:
   ignored-services: '*'
     routes:
-      example-service:  
+      example-microservice:  
         url: http://localhost:8091
       
