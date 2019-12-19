@@ -1,0 +1,6 @@
+server:
+  port: 9091
+
+turbine:
+  app-config: example-microservice
+  cluster-name-expression: String("default")
