@@ -10,5 +10,4 @@ zuul:
       example-service:  
         path: /example/** 
         url: http://localhost:8091
-        stripPrefix: false
-        sensitiveHeader:
+      
