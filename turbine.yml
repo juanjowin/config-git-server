@@ -3,4 +3,4 @@ server:
 
 turbine:
   app-config: example-microservice
-  cluster-name-expression: String("default")
+  cluster-name-expression:new String("default")
