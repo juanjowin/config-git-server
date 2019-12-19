@@ -5,8 +5,8 @@ zuul:
     routes:
       example-microservice:
         path: /example-api/**
- zuul:
-    routes:
-      example-microservice:
-        url: http://localhost:8091/
+zuul:
+   routes:
+     example-microservice:
+       url: http://localhost:8091/
       
