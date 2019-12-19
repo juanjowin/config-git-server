@@ -2,9 +2,8 @@ server:
   port: 8080
 
 zuul:
-  ignored-services: '*'
     routes:
       example-microservice: 
         path: /example/**
-        serviceId: EXAMPLE-MICROSERVICE
+        url: http://localhost:8091
       
