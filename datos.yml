@@ -1,0 +1,5 @@
+sprin:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/DemoPlanilla
+    username: postgres 
+    password: benjamin17
