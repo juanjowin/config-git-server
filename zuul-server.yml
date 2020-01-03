@@ -3,7 +3,7 @@ server:
 
 zuul:
     routes:
-      microservicio_A:
+      microservicio-A:
         path: /empleado/**
-        serviceId: microservicio-A
+        url: http://localhost:8092
       
