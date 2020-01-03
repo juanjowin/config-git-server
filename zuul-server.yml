@@ -5,5 +5,5 @@ zuul:
     routes:
       microservicio_A:
         path: /empleado/**
-        service-id: microservicio_A
+        url: http://localhost:8092
       
