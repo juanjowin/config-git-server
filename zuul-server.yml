@@ -5,7 +5,7 @@ zuul:
     routes:
       microservicio_B:
         path: /buscar/**
-        url: http://localhost:8093/**
+        url: http://localhost:8093/
     
         
     
