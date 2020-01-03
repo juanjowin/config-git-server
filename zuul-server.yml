@@ -11,7 +11,7 @@ zuul:
     routes:
       microservicio_B:
         path: /buscar/**
-        serviceid: microservicio_B
+         url: http://localhost:8093
         
     
       
