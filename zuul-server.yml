@@ -3,11 +3,9 @@ server:
 
 zuul:
     routes:
-      microservicio_A:
-        path: /empleado/**
-        url: http://localhost:8092
-        strip-prefix: false
       microservicio_B:
-        path: /buscar/**
+        path: /bubscar/**
         url: http://localhost:8093
+        strip-prefix: false
+    
       
