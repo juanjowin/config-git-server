@@ -2,5 +2,5 @@ server:
   port: 8989
 
 turbine:
-  app-config: example-microservice
+  app-config: microservicio-A
   cluster-name-expression: new String("default")
