@@ -4,5 +4,5 @@ server:
 zuul:
     routes:
       example-microservice:
-        url: http://localhost:8091/example
+        url: http://localhost:8091/example,localhost:8092/empleado//buscarPorIdEmpleado/{idEmpleado}
       
