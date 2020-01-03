@@ -3,7 +3,7 @@ server:
 
 zuul:
     routes:
-      microservicio-A:
+      microservicio_A:
         path: /empleado/**
         serviceId: microservicio-A
       
