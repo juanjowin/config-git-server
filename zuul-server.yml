@@ -4,5 +4,6 @@ server:
 zuul:
     routes:
       microservicio-A:
-        url: localhost:8092/empleado/buscarPorIdEmpleado/
+        path: /empleado/**
+        serviceId: microservicio-A
       
