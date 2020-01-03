@@ -4,5 +4,6 @@ server:
 zuul:
     routes:
       microservicio-A:
+        path: /**
         url: http://localhost:8092
       
