@@ -6,7 +6,11 @@ zuul:
       microservicio_A:
         path: /empleado/**
         url: http://localhost:8092
-    
-        
+      microservicio_B:
+        path: /buscar/**
+        url: http://localhost:8093
+      microservicio_C:
+        path: /planilla/**
+        url: http://localhost:80924
     
       
