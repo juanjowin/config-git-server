@@ -11,6 +11,6 @@ zuul:
         url: http://localhost:8093
       microservicio_C:
         path: /planilla/**
-        url: http://localhost:80924
+        url: http://localhost:8094
     
       
