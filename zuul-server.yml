@@ -5,6 +5,10 @@ zuul:
     routes:
       microservicio_A:
         url: http://localhost:8092
+      microservicio_B:
+        url: http://localhost:8093
+      microservicio_C:
+        url: http://localhost:8094
  
     
       
