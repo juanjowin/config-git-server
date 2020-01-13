@@ -2,5 +2,5 @@ server:
   port: 8989
 
 turbine:
-  app-config: microservici-A,microservici-B,microservici-C
+  app-config: microservici_A,microservici_B,microservici_C
   cluster-name-expression: new String("default")
