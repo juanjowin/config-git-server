@@ -1,6 +1,0 @@
-server:
-  port: 8989
-
-turbine:
-  app-config: microservicio_A,microservicio_B,microservicio_C
-  cluster-name-expression: new String("default")
