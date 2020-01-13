@@ -4,7 +4,7 @@ server:
 zuul:
     routes:
       microservicio_A:
-        path: /insertar/**
+        path: /empleado/*
         url: http://localhost:8092
  
     
