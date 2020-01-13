@@ -3,9 +3,8 @@ server:
 
 zuul:
     routes:
-      microservicio_A:
-       path: /empleado/**
-        url: http://localhost:8092
+      empleado:
+        url: http://localhost:8092/empleado/insertar
  
     
       
