@@ -1,0 +1,8 @@
+server:
+  port: 8989
+
+      
+turbine:
+  appConfig: microservicio-a,microservicio-b
+  clusterNameExpression: new String("default")
+      
