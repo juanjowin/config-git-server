@@ -4,7 +4,7 @@ server:
       
 turbine:
   aggregator:
-    clusterConfig: MICROSERVICIO-A,MICROSERVICIO-B,MICROSERVICIO-C
-  appConfig: microservicio-a,microservicio-c,microservicio-c
+    clusterConfig: MICROSERVICIO-A,MICROSERVICIO-B
+  appConfig: microservicio-a,microservicio-c
   clusterNameExpression: new String("default")
       
