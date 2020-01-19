@@ -3,8 +3,6 @@ server:
 
       
 turbine:
-  aggregator:
-    clusterConfig: MICROSERVICIO-A,MICROSERVICIO-B
   appConfig: microservicio-A,microservicio-B
   clusterNameExpression: new String("default")
       
