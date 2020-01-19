@@ -1,7 +1,9 @@
 server:
   port: 8093
+
   
-datasource:
+spring:
+  datasource:
     url: jdbc:postgresql://localhost:5432/DemoPlanilla
     username: postgres 
     password: benjamin17
