@@ -1,9 +1,1 @@
-server:
-  port: 8989
-
-turbine:
-  aggregator:
-    clusterConfig: MICROSERVICIO_A,MICROSERVICIO_B,MICROSERVICIO_C
-  appConfig: microservicio_A,microservicio_B,microservicio_C
-  cluster-name-expression: new String("default")
 
