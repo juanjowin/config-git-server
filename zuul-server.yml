@@ -3,11 +3,11 @@ server:
 
 zuul:
     routes:
-      microservicio-a:
+      service-a:
         url: http://localhost:8092
-      microservicio-bb:
+      service-b:
         url: http://localhost:8093
-      microservicio-c:
+      service-c:
         url: http://localhost:8094
  
     
