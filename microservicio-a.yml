@@ -12,3 +12,6 @@ spring:
 microservicio-a:
          afp: 0.0725
   
+microservicio-a:
+         isssFijo: 30
+         isssSueldo: 0.03
