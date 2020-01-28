@@ -7,3 +7,8 @@ spring:
     url: jdbc:postgresql://localhost:5432/DemoPlanilla
     username: postgres 
     password: benjamin17
+
+
+microservicio-a:
+         afp: 0.0725
+  
