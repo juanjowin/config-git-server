@@ -10,6 +10,6 @@ spring:
 
 
 microservicio-a:
-         afp: 0.0725
+         afp: 0.03
          isssMayor: 30
          isssMenor: 0.03
