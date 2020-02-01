@@ -9,7 +9,7 @@ spring:
     password: benjamin17
 
 
-retencion:
+microservicio-a:
          afp: 0.0725
          isssMayor: 30
          isssMenor: 0.03
